@@ -1,18 +1,22 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kyuuXzry/ALIGHT-MOTION-PREM/main/assets/alight-motion.svg" width="110" alt="Alight Motion Logo">
+<img src="https://raw.githubusercontent.com/kyuuXzry/ALIGHT-MOTION-PREM/main/assets/alight-motion.svg" width="110" alt="Logo Alight Motion">
 
-<h1>ALIGHT MOTION PREMIUM</h1>
+<br>
 
-<p><strong>CLI TOOLS &nbsp;/&nbsp; BOT INTEGRATION</strong></p>
+<h1>A L I G H T &nbsp; M O T I O N</h1>
+
+<img src="https://img.shields.io/badge/%E2%97%86-P%20R%20E%20M%20I%20U%20M-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="PREMIUM">
+
+<p><strong>CLI TOOLS &nbsp;/&nbsp; INTEGRASI BOT</strong></p>
 
 <p>
-  Lightweight tools built with Node.js and Python.
+  Tools ringan berbasis Node.js dan Python.
   <br>
-  Clean, modular, and developer-friendly.
+  Rapi, modular, dan ramah developer.
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=460&height=35&lines=Node.js+%2B+Python;CLI+%2B+WhatsApp+Plugin;Minimal+Code.+Maximum+Control." alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=460&height=35&lines=Node.js+%2B+Python;CLI+%2B+Plugin+WhatsApp;Kode+Minimal.+Kontrol+Maksimal." alt="Typing SVG">
 
 <br><br>
 
@@ -39,38 +43,39 @@
 
 <div align="center">
 
-**[Overview](#overview)** &nbsp;·&nbsp; **[Install](#installation)** &nbsp;·&nbsp; **[Usage](#usage)** &nbsp;·&nbsp; **[Structure](#project-structure)** &nbsp;·&nbsp; **[Troubleshooting](#troubleshooting)** &nbsp;·&nbsp; **[Security](#security)**
+**[Mulai Cepat](#mulai-cepat)** &nbsp;·&nbsp; **[Instalasi](#instalasi)** &nbsp;·&nbsp; **[Penggunaan](#penggunaan)** &nbsp;·&nbsp; **[Struktur](#struktur)** &nbsp;·&nbsp; **[Masalah Umum](#masalah-umum)** &nbsp;·&nbsp; **[Keamanan](#keamanan)**
 
 </div>
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:zap.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Quick Start
+<a name="mulai-cepat"></a>
+## <img src="https://api.iconify.design/lucide:zap.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Mulai Cepat
 
 ```bash
-# clone
+# clone repo
 git clone https://github.com/kyuuXzry/ALIGHT-MOTION-PREM.git
 cd ALIGHT-MOTION-PREM
 
-# dependencies
+# install dependensi
 npm install
 python -m pip install curl_cffi
 
-# run
+# jalankan
 node src/tes-am.js
 ```
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Overview
+## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Gambaran Umum
 
-> **ALIGHT MOTION PREMIUM** is a Node.js and Python-based project built for CLI execution and optional WhatsApp bot integration.
+> **ALIGHT MOTION PREMIUM** adalah project berbasis Node.js dan Python yang dibuat untuk dijalankan lewat CLI, dengan integrasi bot WhatsApp sebagai opsi tambahan.
 
-It uses Python's `curl_cffi` for HTTP requests and can be dropped into a compatible WhatsApp bot as a plugin.
+Project ini memakai `curl_cffi` milik Python untuk request HTTP, dan bisa dipasang ke bot WhatsApp yang kompatibel sebagai plugin.
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:layers-3.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Core Components
+## <img src="https://api.iconify.design/lucide:layers-3.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Komponen Utama
 
 <table>
 <tr>
@@ -78,22 +83,22 @@ It uses Python's `curl_cffi` for HTTP requests and can be dropped into a compati
 
 ### <img src="https://api.iconify.design/lucide:terminal.svg?color=%2339FF88" width="18" align="center" alt=""> CLI
 
-Run the main script straight from the terminal.
+Jalankan script utama langsung dari terminal.
 
-- Node.js runtime
-- Python integration
-- Command-line execution
+- Runtime Node.js
+- Integrasi Python
+- Eksekusi lewat command line
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://api.iconify.design/lucide:plug.svg?color=%2339FF88" width="18" align="center" alt=""> Bot Plugin
+### <img src="https://api.iconify.design/lucide:plug.svg?color=%2339FF88" width="18" align="center" alt=""> Plugin Bot
 
-Optional integration with a compatible WhatsApp bot.
+Integrasi opsional dengan bot WhatsApp yang kompatibel.
 
-- Plugin-based structure
-- Compatible bot base required
-- Baileys comes from the host bot
+- Struktur berbasis plugin
+- Butuh base bot yang kompatibel
+- Baileys disediakan oleh bot induk
 
 </td>
 </tr>
@@ -101,21 +106,22 @@ Optional integration with a compatible WhatsApp bot.
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:monitor-cog.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Requirements
+## <img src="https://api.iconify.design/lucide:monitor-cog.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Kebutuhan Sistem
 
-| Dependency | Purpose | Status |
+| Dependensi | Fungsi | Status |
 |:--|:--|:--:|
-| Node.js LTS | Runs the CLI and JavaScript modules | Required |
-| Python 3 | Runs Python-based components | Required |
-| `curl_cffi` | Handles Python HTTP requests | Required |
-| Axios | HTTP client, only if your code imports it | Conditional |
-| Baileys | WhatsApp bot integration | Optional |
+| Node.js LTS | Menjalankan CLI dan modul JavaScript | Wajib |
+| Python 3 | Menjalankan komponen berbasis Python | Wajib |
+| `curl_cffi` | Menangani request HTTP di Python | Wajib |
+| Axios | HTTP client, hanya jika kodemu mengimpornya | Kondisional |
+| Baileys | Integrasi bot WhatsApp | Opsional |
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:terminal-square.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Installation
+<a name="instalasi"></a>
+## <img src="https://api.iconify.design/lucide:terminal-square.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Instalasi
 
-> Tested flow for **Termux**. Run the steps in order.
+> Alur instalasi untuk **Termux**. Jalankan langkahnya secara berurutan.
 
 **01 · Update Termux**
 
@@ -123,24 +129,24 @@ Optional integration with a compatible WhatsApp bot.
 pkg update && pkg upgrade -y
 ```
 
-**02 · Install Node.js and Python**
+**02 · Install Node.js dan Python**
 
 ```bash
 pkg install nodejs-lts python -y
 ```
 
-**03 · Install Python dependency**
+**03 · Install dependensi Python**
 
 ```bash
 python -m pip install curl_cffi
 ```
 
 > [!NOTE]
-> If Termux says the Python environment is *externally managed*, don't force the install. Use a virtual environment or the method recommended for your Termux/Python version.
+> Kalau Termux menampilkan pesan bahwa environment Python *externally managed*, jangan dipaksa. Gunakan virtual environment atau cara yang direkomendasikan untuk versi Termux/Python kamu.
 
-**04 · Install Axios (only when needed)**
+**04 · Install Axios (hanya jika dibutuhkan)**
 
-Skip this if your code only uses Node.js built-ins like `child_process`.
+Lewati langkah ini kalau kodemu hanya memakai modul bawaan Node.js seperti `child_process`.
 
 ```bash
 npm install axios
@@ -148,42 +154,44 @@ npm install axios
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:check-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Verify Installation
+## <img src="https://api.iconify.design/lucide:check-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Cek Instalasi
 
 ```bash
 node -v
 python --version
-python -c "import curl_cffi; print('curl_cffi is ready')"
+python -c "import curl_cffi; print('curl_cffi siap')"
 ```
 
-If all three commands succeed, your runtime and Python dependency are ready.
+Kalau ketiga perintah berjalan tanpa error, runtime dan dependensi Python sudah siap.
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:play.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Usage
+<a name="penggunaan"></a>
+## <img src="https://api.iconify.design/lucide:play.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Penggunaan
 
-### CLI Mode
+### Mode CLI
 
-From the project root:
+Dari root project:
 
 ```bash
 node src/tes-am.js
 ```
 
-### Bot Plugin Mode
+### Mode Plugin Bot
 
-1. Open the directory of your existing WhatsApp bot.
-2. Confirm the bot supports the plugin format used by this project.
-3. Copy the plugin files into the bot's `plugins/` directory.
-4. Install any dependencies the plugin actually imports.
-5. Restart the bot and check the logs for errors.
+1. Buka direktori bot WhatsApp yang sudah kamu punya.
+2. Pastikan bot mendukung format plugin yang dipakai project ini.
+3. Salin file plugin ke folder `plugins/` milik bot.
+4. Install dependensi yang benar-benar diimpor oleh plugin.
+5. Restart bot dan periksa log untuk melihat apakah ada error.
 
 > [!TIP]
-> Baileys is normally provided by the bot's base project. Avoid installing a second, incompatible version unless the bot's docs require it.
+> Baileys biasanya sudah disediakan oleh base bot. Jangan install versi kedua yang tidak kompatibel, kecuali dokumentasi bot kamu memintanya.
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Project Structure
+<a name="struktur"></a>
+## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Struktur Project
 
 ```text
 ALIGHT-MOTION-PREM/
@@ -199,14 +207,15 @@ ALIGHT-MOTION-PREM/
 └── README.md
 ```
 
-<sub>Keep only the files and folders that actually exist in your repository.</sub>
+<sub>Sesuaikan dengan file dan folder yang benar-benar ada di repositorimu.</sub>
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:bug.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Troubleshooting
+<a name="masalah-umum"></a>
+## <img src="https://api.iconify.design/lucide:bug.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Masalah Umum
 
 <details>
-<summary><strong>Node.js or Python command not found</strong></summary>
+<summary><strong>Perintah node atau python tidak ditemukan</strong></summary>
 
 <br>
 
@@ -215,7 +224,7 @@ node -v
 python --version
 ```
 
-If a command is missing, re-check the Termux package installation and restart the session.
+Kalau perintahnya tidak ada, periksa ulang instalasi paket di Termux lalu restart sesi terminal.
 
 </details>
 
@@ -224,7 +233,7 @@ If a command is missing, re-check the Termux package installation and restart th
 
 <br>
 
-Install it with the same interpreter that runs the script:
+Install dengan interpreter yang sama dengan yang menjalankan script:
 
 ```bash
 python -m pip install curl_cffi
@@ -237,18 +246,18 @@ python -m pip install curl_cffi
 
 <br>
 
-Only if the failing code imports Axios, install it in the project directory:
+Hanya jika kode yang error memang mengimpor Axios, install di direktori project:
 
 ```bash
 npm install axios
 ```
 
-A global install is generally not a substitute for a project dependency.
+Install global umumnya tidak menggantikan dependensi project.
 
 </details>
 
 <details>
-<summary><strong>CLI script cannot be found</strong></summary>
+<summary><strong>Script CLI tidak ditemukan</strong></summary>
 
 <br>
 
@@ -258,30 +267,31 @@ ls
 ls src
 ```
 
-Run the command from the repository root and use the correct entry-point path.
+Jalankan perintah dari root repositori dan gunakan path entry-point yang benar.
 
 </details>
 
 <details>
-<summary><strong>HTTP request fails</strong></summary>
+<summary><strong>Request HTTP gagal</strong></summary>
 
 <br>
 
-Check your connection, the target service's availability, and the request config. `curl_cffi` does not guarantee access to every protected endpoint.
+Periksa koneksi internet, ketersediaan layanan tujuan, dan konfigurasi request. `curl_cffi` tidak menjamin semua endpoint yang terproteksi bisa diakses.
 
 </details>
 
 <br>
 
-## <img src="https://api.iconify.design/lucide:shield-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Security
+<a name="keamanan"></a>
+## <img src="https://api.iconify.design/lucide:shield-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Keamanan
 
 > [!IMPORTANT]
-> Use this project only with accounts and services you are authorized to access.
+> Gunakan project ini hanya dengan akun dan layanan yang memang kamu punya izin untuk mengaksesnya.
 
-- Keep session cookies, tokens, and credentials private.
-- Never commit secrets or personal authentication data to a public repository.
-- Respect the target service's terms and security controls.
-- Review third-party dependencies before running code.
+- Jaga kerahasiaan cookie sesi, token, dan kredensial.
+- Jangan commit secret atau data autentikasi pribadi ke repositori publik.
+- Hormati ketentuan layanan dan sistem keamanan dari layanan tujuan.
+- Periksa dependensi pihak ketiga sebelum menjalankan kode.
 
 <br>
 
@@ -297,13 +307,13 @@ Check your connection, the target service's availability, and the request config
 kyuu@dev:~$ whoami
 Paduka Kyuu  //  KyuuAI / KyuuXzry
 
-kyuu@dev:~$ cat focus.txt
-> web scraping    > rest api       > automation
+kyuu@dev:~$ cat fokus.txt
+> web scraping    > rest api       > otomasi
 > bot whatsapp    > bot telegram   > ui/ux
-> full-stack      > ai (learning)  > backend (learning)
+> full-stack      > ai (belajar)   > backend (belajar)
 
 kyuu@dev:~$ echo $MOTTO
-Minimal code. Maximum control.
+Kode minimal. Kontrol maksimal.
 ```
 
 </div>
@@ -314,23 +324,23 @@ Minimal code. Maximum control.
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://api.iconify.design/lucide:user-round.svg?color=%2339FF88" width="18" align="center" alt=""> Profile
+### <img src="https://api.iconify.design/lucide:user-round.svg?color=%2339FF88" width="18" align="center" alt=""> Profil
 
 | | |
 |:--|:--|
 | **Alias** | Paduka Kyuu |
 | **Handle** | `kyuuXzry` |
-| **Role** | Developer, Node.js bots |
+| **Peran** | Developer bot Node.js |
 | **Web** | [kyuudev.my.id](https://kyuudev.my.id) |
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://api.iconify.design/lucide:rocket.svg?color=%2339FF88" width="18" align="center" alt=""> Building &amp; Learning
+### <img src="https://api.iconify.design/lucide:rocket.svg?color=%2339FF88" width="18" align="center" alt=""> Dikerjakan &amp; Dipelajari
 
-- WhatsApp / Telegram automation
-- Scrapers and REST API tools
-- Learning **AI** and **backend** development
+- Otomasi WhatsApp / Telegram
+- Scraper dan tools REST API
+- Belajar **AI** dan **backend**
 
 </td>
 </tr>
@@ -360,18 +370,18 @@ Minimal code. Maximum control.
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=kyuuXzry&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=39FF88&icon_color=39FF88&text_color=C9D1D9&border_color=1F1F1F&hide_border=false" width="440" alt="GitHub Stats">
+<img src="https://github-readme-stats.vercel.app/api?username=kyuuXzry&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=39FF88&icon_color=39FF88&text_color=C9D1D9&border_color=1F1F1F&hide_border=false" width="440" alt="Statistik GitHub">
 
 <br><br>
 
 <a href="https://github.com/kyuuXzry/ALIGHT-MOTION-PREM">
-  <img src="https://img.shields.io/badge/%E2%AD%90%20STAR%20THIS%20REPO-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Star this repo">
+  <img src="https://img.shields.io/badge/%E2%AD%90%20BERI%20BINTANG-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Beri bintang">
 </a>
 
 <br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:050505,100:39FF88&section=footer&text=&fontSize=0" width="100%" alt="">
 
-<sub><code>ALIGHT-MOTION-PREM</code> &nbsp;·&nbsp; Built for developers, by a developer.</sub>
+<sub><code>ALIGHT-MOTION-PREM</code> &nbsp;·&nbsp; Dibuat untuk developer, oleh developer.</sub>
 
 </div>
