@@ -2,17 +2,23 @@
 
 <br>
 
-<img src="assets/alight-motion.svg" width="100" alt="Alight Motion Logo">
+<img src="assets/alight-motion.svg" width="96" alt="Alight Motion Logo">
 
-# ALIGHT MOTION PREMIUM
+<h1>ALIGHT MOTION PREMIUM</h1>
 
-### `ALIGHT MOTION TOOLS`
+<p>
+  <strong>CLI TOOLS &nbsp; / &nbsp; BOT INTEGRATION</strong>
+</p>
 
-Tools berbasis Node.js dan Python untuk membantu proses integrasi Alight Motion.
+<p>
+  Lightweight tools built with Node.js and Python.
+  <br>
+  Designed for a clean, modular, and developer-friendly environment.
+</p>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=500&height=35&lines=Built+for+Developers.;Node.js+%2B+Python.;Simple.+Clean.+Efficient." alt="Typing Animation">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=900&color=39FF88&center=true&vCenter=true&width=460&height=35&lines=Node.js+%2B+Python;CLI+%2B+WhatsApp+Plugin;Minimal+Code.+Maximum+Control." alt="Typing SVG">
 
 <br>
 
@@ -26,126 +32,209 @@ Tools berbasis Node.js dan Python untuk membantu proses integrasi Alight Motion.
   <img src="https://img.shields.io/github/issues/kyuuXzry/ALIGHT-MOTION-PREM?style=for-the-badge&color=39FF88&labelColor=0A0A0A&logo=github&logoColor=39FF88" alt="Issues">
 </a>
 
-<br>
+<br><br>
 
-<img src="https://img.shields.io/badge/Node.js-18%2B-39FF88?style=flat-square&logo=nodedotjs&logoColor=39FF88&labelColor=0A0A0A" alt="Node.js">
-<img src="https://img.shields.io/badge/Python-3.10%2B-39FF88?style=flat-square&logo=python&logoColor=39FF88&labelColor=0A0A0A" alt="Python">
-<img src="https://img.shields.io/badge/Platform-Cross--Platform-39FF88?style=flat-square&logo=github&logoColor=39FF88&labelColor=0A0A0A" alt="Platform">
+<img src="https://img.shields.io/badge/Node.js-LTS-39FF88?style=flat-square&logo=nodedotjs&logoColor=39FF88&labelColor=0A0A0A" alt="Node.js">
+<img src="https://img.shields.io/badge/Python-3.x-39FF88?style=flat-square&logo=python&logoColor=39FF88&labelColor=0A0A0A" alt="Python">
+<img src="https://img.shields.io/badge/HTTP-curl__cffi-39FF88?style=flat-square&logo=cloudflare&logoColor=39FF88&labelColor=0A0A0A" alt="curl_cffi">
+<img src="https://img.shields.io/badge/Environment-Termux-39FF88?style=flat-square&logo=termux&logoColor=39FF88&labelColor=0A0A0A" alt="Termux">
 
 <br><br>
 
+<img src="https://api.iconify.design/lucide:minus.svg?color=%2339FF88" width="100%" height="2" alt="separator">
+
 </div>
 
----
+<br>
 
-## `01` — About
+## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Overview
 
-**ALIGHT-MOTION-PREM** merupakan project berbasis **Node.js + Python** yang dikembangkan untuk kebutuhan integrasi dan otomatisasi terkait layanan Alight Motion.
+<table>
+<tr>
+<td width="100%">
 
-Project ini dirancang dengan struktur yang sederhana agar mudah dipahami, dikembangkan, dan diintegrasikan dengan sistem lain sesuai kebutuhan.
+**ALIGHT MOTION PREMIUM** is a Node.js and Python-based project designed for CLI execution and optional bot integration.
 
-> Fokus pada kode yang rapi, penggunaan yang praktis, dan struktur project yang mudah dikembangkan.
+The project uses Python's `curl_cffi` for HTTP requests and can be integrated into a compatible WhatsApp bot through a plugin.
 
----
+</td>
+</tr>
+</table>
 
-## `02` — Features
+<br>
 
-| Feature | Description |
-|:--|:--|
-| **Node.js Integration** | Menjalankan fungsi utama menggunakan ekosistem JavaScript. |
-| **Python Support** | Mendukung modul Python untuk kebutuhan tertentu. |
-| **HTTP Requests** | Mendukung komunikasi HTTP melalui library yang digunakan project. |
-| **Modular Structure** | Kode dapat dipisahkan ke dalam modul agar lebih mudah dikelola. |
-| **Bot Integration** | Dapat diintegrasikan dengan bot apabila plugin terkait tersedia. |
-| **CLI Support** | Mendukung penggunaan melalui terminal jika entry point CLI tersedia. |
+## <img src="https://api.iconify.design/lucide:layers-3.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Core Components
 
-> Fitur yang aktif bergantung pada kode dan plugin yang tersedia di repository.
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+<h3>
+<img src="https://api.iconify.design/lucide:terminal.svg?color=%2339FF88" width="18" align="center" alt="">
+ CLI
+</h3>
 
-## `03` — Requirements
+Run the main script directly from the terminal.
 
-Pastikan environment berikut sudah tersedia:
+- Node.js runtime
+- Python integration
+- Command-line execution
 
-- [Node.js](https://nodejs.org/) versi 18 atau lebih baru.
-- [Python](https://www.python.org/) versi 3.10 atau lebih baru.
-- [Git](https://git-scm.com/) untuk melakukan clone repository.
-- Koneksi internet jika project membutuhkan akses layanan eksternal.
+</td>
+<td width="50%" valign="top">
 
-Cek versi yang terpasang:
+<h3>
+<img src="https://api.iconify.design/lucide:plug.svg?color=%2339FF88" width="18" align="center" alt="">
+ Bot Plugin
+</h3>
+
+Optional integration with a compatible WhatsApp bot.
+
+- Plugin-based structure
+- Compatible bot base required
+- Baileys support depends on the host project
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:monitor-cog.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Requirements
+
+<table>
+<tr>
+<td width="100%">
+
+| Dependency | Purpose | Status |
+|:--|:--|:--|
+| Node.js LTS | Runs the CLI and JavaScript modules | Required |
+| Python 3 | Runs Python-based components | Required |
+| `curl_cffi` | Handles Python HTTP requests | Required |
+| Axios | HTTP client for code that imports Axios | Conditional |
+| Baileys | WhatsApp bot integration | Optional |
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:terminal-square.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Installation
+
+### 01 / Update Termux
+
+Start by updating the package lists and installed packages.
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+### 02 / Install Node.js
+
+Install the Node.js LTS package.
+
+```bash
+pkg install nodejs-lts -y
+```
+
+### 03 / Install Python
+
+Python is required for the Python-based components.
+
+```bash
+pkg install python -y
+```
+
+### 04 / Install Python Dependencies
+
+Install `curl_cffi` using the Python package manager.
+
+```bash
+python -m pip install curl_cffi
+```
+
+If Termux reports that the Python environment is externally managed, do not force the installation. Use a compatible virtual environment or the package installation method recommended by your Termux/Python version.
+
+### 05 / Install Axios When Needed
+
+Axios is not required if the JavaScript code only uses Node.js built-in modules such as `child_process`.
+
+Install it only if your code or bot base imports Axios.
+
+```bash
+npm install axios
+```
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:check-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Verify Installation
+
+Run these commands individually to check your environment.
+
+<table>
+<tr>
+<td width="100%">
+
+**Node.js**
 
 ```bash
 node -v
-npm -v
+```
+
+**Python**
+
+```bash
 python --version
-git --version
 ```
 
----
-
-## `04` — Installation
-
-### 1. Clone Repository
+**Python HTTP Library**
 
 ```bash
-git clone https://github.com/kyuuXzry/ALIGHT-MOTION-PREM.git
+python -c "import curl_cffi; print('curl_cffi is ready')"
 ```
 
-### 2. Masuk ke Folder Project
+</td>
+</tr>
+</table>
 
-```bash
-cd ALIGHT-MOTION-PREM
-```
+If all checks complete successfully, the basic runtime and Python dependency are available.
 
-### 3. Install Dependencies Node.js
+<br>
 
-Jika repository memiliki `package.json`, jalankan:
+## <img src="https://api.iconify.design/lucide:play.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Usage
 
-```bash
-npm install
-```
+### CLI Mode
 
-### 4. Install Dependencies Python
-
-Jika repository memiliki `requirements.txt`, jalankan:
-
-```bash
-pip install -r requirements.txt
-```
-
-Jika perintah `pip` tidak tersedia, coba:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 5. Konfigurasi
-
-Periksa file konfigurasi dan dokumentasi yang tersedia sebelum menjalankan project.
-
-Jangan memasukkan password, token, cookie, atau data autentikasi pribadi ke repository publik.
-
----
-
-## `05` — Usage
-
-Jalankan perintah sesuai entry point yang tersedia di repository.
-
-Contoh jika project menggunakan file `src/tes-am.js`:
+From the project root, run the main CLI script:
 
 ```bash
 node src/tes-am.js
 ```
 
-Jika project menyediakan integrasi bot, gunakan perintah yang telah dikonfigurasi pada plugin terkait.
+Make sure the file exists and the required dependencies are installed before running it.
 
-**Catatan:** Sesuaikan perintah di atas dengan file entry point dan command yang benar-benar tersedia pada versi project yang lu gunakan.
+### Bot Plugin Mode
 
----
+<table>
+<tr>
+<td width="100%">
 
-## `06` — Project Structure
+1. Open the directory of your existing WhatsApp bot.
+2. Confirm that the bot supports the plugin format used by this project.
+3. Copy the required plugin file into the bot's `plugins/` directory.
+4. Install any dependencies that the plugin actually imports.
+5. Restart the bot and check its logs for errors.
 
-Contoh struktur folder yang dapat digunakan:
+</td>
+</tr>
+</table>
+
+**Note:** Baileys is normally provided by the bot's base project. Avoid installing a second, incompatible version unless the bot's documentation requires it.
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Project Structure
 
 ```text
 ALIGHT-MOTION-PREM/
@@ -165,78 +254,97 @@ ALIGHT-MOTION-PREM/
 └── README.md
 ```
 
-**Keterangan:**
+<sub>The structure above is a reference based on the expected project components. Keep only the files and directories that actually exist in your repository.</sub>
 
-| File / Folder | Fungsi |
-|:--|:--|
-| `assets/` | Menyimpan aset visual project. |
-| `plugins/` | Menyimpan modul atau plugin tambahan. |
-| `src/` | Menyimpan kode utama project. |
-| `package.json` | Konfigurasi dan dependencies Node.js. |
-| `requirements.txt` | Daftar dependencies Python. |
-| `README.md` | Dokumentasi repository. |
+<br>
 
-Struktur di atas merupakan contoh. Sesuaikan dengan file yang benar-benar ada di repository.
-
----
-
-## `07` — Troubleshooting
+## <img src="https://api.iconify.design/lucide:bug.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Troubleshooting
 
 <details>
-<summary><b>Module not found</b></summary>
+<summary><strong>Node.js or Python command not found</strong></summary>
 
-Pastikan dependencies sudah diinstal.
-
-```bash
-npm install
-```
-
-Untuk modul Python:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-</details>
-
-<details>
-<summary><b>Node.js command not found</b></summary>
-
-Pastikan Node.js sudah terinstal dan tersedia pada `PATH` sistem.
-
-Cek instalasi:
+Check whether the packages are installed correctly.
 
 ```bash
 node -v
-npm -v
+python --version
 ```
+
+If a command is unavailable, check the Termux package installation and restart the terminal session if necessary.
 
 </details>
 
 <details>
-<summary><b>Python dependency error</b></summary>
+<summary><strong>ModuleNotFoundError: curl_cffi</strong></summary>
 
-Pastikan versi Python sesuai dengan kebutuhan project.
+Install the Python dependency using the interpreter that runs the script.
 
 ```bash
-python --version
-python -m pip --version
+python -m pip install curl_cffi
 ```
+
+If the installation fails, review the Python environment and the package installation restrictions reported by Termux.
 
 </details>
 
 <details>
-<summary><b>Request gagal atau timeout</b></summary>
+<summary><strong>Cannot find module 'axios'</strong></summary>
 
-Periksa koneksi internet, konfigurasi project, serta ketersediaan layanan yang digunakan.
+Only if the failing code imports Axios, install it in the appropriate project directory.
 
-Jika masalah berasal dari layanan eksternal, coba kembali setelah beberapa saat.
+```bash
+npm install axios
+```
+
+Installing Axios globally is generally not a substitute for installing a project dependency.
 
 </details>
 
----
+<details>
+<summary><strong>CLI script cannot be found</strong></summary>
 
-## `08` — Developer
+Confirm your current directory and inspect the available files.
+
+```bash
+pwd
+ls
+ls src
+```
+
+Run the command from the repository root and use the correct entry-point path.
+
+</details>
+
+<details>
+<summary><strong>HTTP request fails</strong></summary>
+
+Check your internet connection, the target service's availability, and the request configuration.
+
+`curl_cffi` does not guarantee that every Cloudflare-protected endpoint can be accessed. Respect the target service's access controls and terms.
+
+</details>
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:shield-check.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Security
+
+<table>
+<tr>
+<td width="100%">
+
+- Use only accounts and services you are authorized to access.
+- Keep session cookies, access tokens, and credentials private.
+- Never commit secrets or personal authentication data to a public repository.
+- Respect the target service's terms and security controls.
+- Review third-party dependencies before running code.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## <img src="https://api.iconify.design/lucide:code-xml.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Developer
 
 <div align="center">
 
@@ -244,11 +352,11 @@ Jika masalah berasal dari layanan eksternal, coba kembali setelah beberapa saat.
 
 <br><br>
 
-**KyuuAI — Paduka Kyuu**
+**KyuuAI / KyuuXzry**
 
-*Building tools, exploring AI, and writing code.*
+<sub>AI exploration · Automation · API Development</sub>
 
-<br>
+<br><br>
 
 <a href="https://github.com/kyuuXzry">
   <img src="https://img.shields.io/badge/GitHub-kyuuXzry-39FF88?style=for-the-badge&logo=github&logoColor=39FF88&labelColor=0A0A0A" alt="GitHub">
@@ -260,19 +368,17 @@ Jika masalah berasal dari layanan eksternal, coba kembali setelah beberapa saat.
 <br><br>
 
 <a href="https://github.com/kyuuXzry/ALIGHT-MOTION-PREM">
-  <img src="https://img.shields.io/badge/EXPLORE-REPOSITORY-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Explore Repository">
+  <img src="https://img.shields.io/badge/VIEW-REPOSITORY-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Repository">
 </a>
 
 </div>
 
----
+<br>
+
+<img src="https://api.iconify.design/lucide:minus.svg?color=%2339FF88" width="100%" height="2" alt="separator">
 
 <div align="center">
 
-<sub>Designed with a minimal black & neon green aesthetic.</sub>
-
-<br>
-
-<sub>© 2026 KyuuAI. All rights reserved unless otherwise specified.</sub>
+<sub>ALIGHT-MOTION-PREM · Built for developers.</sub>
 
 </div>
