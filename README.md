@@ -47,6 +47,23 @@
 
 <br>
 
+## <img src="https://api.iconify.design/lucide:zap.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Quick Start
+
+```bash
+# clone
+git clone https://github.com/kyuuXzry/ALIGHT-MOTION-PREM.git
+cd ALIGHT-MOTION-PREM
+
+# dependencies
+npm install
+python -m pip install curl_cffi
+
+# run
+node src/tes-am.js
+```
+
+<br>
+
 ## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2339FF88" width="21" align="center" alt=""> &nbsp; Overview
 
 > **ALIGHT MOTION PREMIUM** is a Node.js and Python-based project built for CLI execution and optional WhatsApp bot integration.
@@ -278,29 +295,85 @@ Check your connection, the target service's availability, and the request config
 
 <br><br>
 
-**KyuuAI / KyuuXzry**
+```console
+kyuu@dev:~$ whoami
+Paduka Kyuu  //  KyuuAI / KyuuXzry
 
-<sub>AI exploration · Automation · API Development</sub>
+kyuu@dev:~$ cat focus.txt
+> web scraping    > rest api       > automation
+> bot whatsapp    > bot telegram   > ui/ux
+> full-stack      > ai (learning)  > backend (learning)
+
+kyuu@dev:~$ echo $MOTTO
+Minimal code. Maximum control.
+```
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://api.iconify.design/lucide:user-round.svg?color=%2339FF88" width="18" align="center" alt=""> Profile
+
+| | |
+|:--|:--|
+| **Alias** | Paduka Kyuu |
+| **Handle** | `kyuuXzry` |
+| **Role** | Developer, Node.js bots |
+| **Web** | [kyuudev.my.id](https://kyuudev.my.id) |
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://api.iconify.design/lucide:rocket.svg?color=%2339FF88" width="18" align="center" alt=""> Building &amp; Learning
+
+- WhatsApp / Telegram automation
+- Scrapers and REST API tools
+- Learning **AI** and **backend** development
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=nodejs,js,py,express,html,css,git,github,bash,linux&theme=dark" alt="Tech stack">
 
 <br><br>
 
 <a href="https://github.com/kyuuXzry">
   <img src="https://img.shields.io/badge/GitHub-kyuuXzry-39FF88?style=for-the-badge&logo=github&logoColor=39FF88&labelColor=0A0A0A" alt="GitHub">
 </a>
+<a href="https://kyuudev.my.id">
+  <img src="https://img.shields.io/badge/Website-kyuudev.my.id-39FF88?style=for-the-badge&logo=googlechrome&logoColor=39FF88&labelColor=0A0A0A" alt="Website">
+</a>
 <a href="https://instagram.com/rissxzry_">
-  <img src="https://img.shields.io/badge/Instagram-rissxzry_-39FF88?style=for-the-badge&logo=instagram&logoColor=39FF88&labelColor=0A0A0A" alt="Instagram">
+  <img src="https://img.shields.io/badge/Instagram-rissxzry__-39FF88?style=for-the-badge&logo=instagram&logoColor=39FF88&labelColor=0A0A0A" alt="Instagram">
 </a>
 
 <br><br>
 
+<img src="https://img.shields.io/github/followers/kyuuXzry?style=for-the-badge&color=39FF88&labelColor=0A0A0A&logo=github&logoColor=39FF88" alt="Followers">
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=kyuuXzry&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=39FF88&icon_color=39FF88&text_color=C9D1D9&border_color=1F1F1F&hide_border=false" width="440" alt="GitHub Stats">
+
+<br><br>
+
 <a href="https://github.com/kyuuXzry/ALIGHT-MOTION-PREM">
-  <img src="https://img.shields.io/badge/VIEW-REPOSITORY-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Repository">
+  <img src="https://img.shields.io/badge/%E2%AD%90%20STAR%20THIS%20REPO-39FF88?style=for-the-badge&labelColor=0A0A0A" alt="Star this repo">
 </a>
 
-<br>
+<br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:050505,100:39FF88&section=footer&text=&fontSize=0" width="100%" alt="">
 
-<sub>ALIGHT-MOTION-PREM · Built for developers.</sub>
+<sub><code>ALIGHT-MOTION-PREM</code> &nbsp;·&nbsp; Built for developers, by a developer.</sub>
 
 </div>
