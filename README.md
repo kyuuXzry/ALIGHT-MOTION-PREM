@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:050505,100:39FF88&section=header&text=&fontSize=0" width="100%" alt="">
-
-<img src="assets/alight-motion.svg" width="110" alt="Alight Motion Logo">
+<img src="https://raw.githubusercontent.com/kyuuXzry/ALIGHT-MOTION-PREM/main/assets/alight-motion.svg" width="110" alt="Alight Motion Logo">
 
 <h1>ALIGHT MOTION PREMIUM</h1>
 
