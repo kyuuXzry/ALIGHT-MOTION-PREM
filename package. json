@@ -1,0 +1,17 @@
+{
+  "name": "alightmotion-bypass",
+  "version": "1.0.0",
+  "description": "Automated verification and Cloudflare bypass for AlightMotion Premium.",
+  "main": "src/tes-am.js",
+  "scripts": {
+    "start": "node src/tes-am.js"
+  },
+  "keywords": [
+    "alightmotion",
+    "bypass",
+    "cloudflare",
+    "scraper"
+  ],
+  "author": "KyuuXzry",
+  "license": "MIT"
+}
